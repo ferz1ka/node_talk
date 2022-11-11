@@ -20,13 +20,14 @@
         <% contacts.forEach(function(contact, index) { %>
           <tr>
             <td>
-              <%- contact.name %>
+              <%- contact.nome %>
             </td>
             <td>
               <%- contact.email %>
             </td>
             <td>
-              <a href="/contacts/<%- index %>">Detalhes</a>
+              <a href="/contact/<%- index %>">Detalhes</a>
+              <a href="/chat/<%- contact.email %>">Conversar</a>
             </td>
           </tr>
           <% }) %>

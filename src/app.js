@@ -19,7 +19,9 @@ app.set('view engine', 'ejs')
 app.use(session(sessionConfig));
 app.use(express.urlencoded())
 app.use(express.json())
+
 app.use(router)
+
 // app.use(express.static('/public'));
 // app.use(cors)
 

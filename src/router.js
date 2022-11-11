@@ -1,9 +1,11 @@
-import HomeRoute from './routes/home.js'
-import ContactsRoute from './routes/contacts.js'
+import HomeRoutes from './routes/home.js'
+import ContactsRoutes from './routes/contacts.js'
+import ChatRoutes from './routes/chat.js'
 
 const router = [
-  HomeRoute,
-  ContactsRoute
+  HomeRoutes,
+  ContactsRoutes,
+  ChatRoutes,
 ]
 
 export default router
